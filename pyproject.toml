@@ -1,0 +1,15 @@
+[tool.poetry]
+authors = ["Patryk Parylo"]
+description = ""
+name = "fastapi-project"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+fastapi = "^0.114.1"
+python = "^3.12"
+uvicorn = "^0.30.6"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
